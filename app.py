@@ -27,5 +27,5 @@ def predict():
     generated_text = generated_text.split("Orang 2:")[1].split("Orang 1:")[0]
     return render_template("index.html", answer=str(generated_text.strip()))
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port="5000")
+# if __name__ == "__main__":
+#     app.run()
